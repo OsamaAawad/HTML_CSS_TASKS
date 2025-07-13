@@ -125,7 +125,7 @@ nav {
     }
 
     body::after {
-        clip-path: circle(40% at bottom );
+        clip-path: circle(40% at bottom);
     }
 }
 
@@ -140,5 +140,40 @@ nav {
 
     .image img {
         width: 280px;
+    }
+
+    ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .image img {
+        width: 200px;
+    }
+
+    ul {
+        justify-content: center;
+    }
+
+    body {
+        background-color: red;
+    }
+
+    .content h2 {
+        font-size: 25px;
+    }
+
+    .content p {
+        line-height: 20px;
+    }
+
+}
+@media (max-width: 330px) {
+      .content h2 {
+        font-size: 20px;
+    }
+      .content p {
+        font-size: 15px;
     }
 }
